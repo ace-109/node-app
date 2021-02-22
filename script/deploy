@@ -1,5 +1,8 @@
 #!/bin/sh
-cd /home/osboxes/node-app/node-app/node-app
+ssh root@10.1.1.99 <<EOF
+cd ~/node-app
 git pull
 npm install --production
+pm2 restart all
 exit
+EOF
