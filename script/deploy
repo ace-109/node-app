@@ -1,0 +1,5 @@
+#!/bin/sh
+cd /home/osboxes/node-app/node-app/node-app
+git pull
+npm install --production
+exit
