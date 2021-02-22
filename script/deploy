@@ -1,5 +1,5 @@
 #!/bin/sh
-ssh jenkins@10.1.1.99 <<EOF
+ssh jenkins@10.1.1.76 <<EOF
 cd ~/node-app
 git pull
 npm install --production
