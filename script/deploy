@@ -1,7 +1,7 @@
 #!/bin/sh
 ssh jenkins@10.1.1.76 <<EOF
-cd /var/lib/jenkins/node-app
-git pull
+cd /var/lib/jenkins/
+git clone https://github.com/ace-109/node-app.git
 npm install --production
 pm2 restart all
 exit
