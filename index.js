@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function (req, res) {
 //Respond with "Detected" for request that hits root
-  res.send('detected');
+  res.send('update to the app');
 });
 
 console.log('Visit http://localhost:5000/')
