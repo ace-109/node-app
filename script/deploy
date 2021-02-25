@@ -1,6 +1,6 @@
 #!/bin/sh
 ssh jenkins@10.1.1.76 <<EOF
-cd /var/lib/jenkins/
+cd /var/lib/jenkins/node-app
 git pull
 npm install --production
 pm2 start index.js
