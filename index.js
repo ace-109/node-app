@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function (req, res) {
 //Respond with "Demo" for request that hits root
-  res.send('updated app');
+  res.send('updated for demo');
 });
 
 console.log('Visit http://localhost:5000/')
