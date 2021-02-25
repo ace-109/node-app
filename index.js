@@ -3,8 +3,8 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-//Respond with "Detected" for request that hits root
-  res.send('update to the app');
+//Respond with "Demo" for request that hits root
+  res.send('update for demo');
 });
 
 console.log('Visit http://localhost:5000/')
